@@ -6,7 +6,7 @@ help:
 	@echo "  clean: Remove the simulator"
 
 simulator: main.cpp
-	g++ -std=c++11 -O3 -o simulator main.cpp -fopenmp
+	g++ -std=c++17 -O3 -o simulator main.cpp -fopenmp
 
 run_iks_50g_1q: simulator
 	@echo "1 IKS, 50GB corpus, 1 query"
