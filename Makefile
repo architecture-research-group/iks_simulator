@@ -65,8 +65,7 @@ run_4x_512g_16q: simulator
 	@./simulator 768 68 64 8 4 333333333 16 2>/dev/null
 
 
-
-
+table_3: simulator run_iks_50g_1q run_4x_50g_64q run_iks_512g_1q run_4x_512g_64q
 
 clean:
 	rm -f simulator
